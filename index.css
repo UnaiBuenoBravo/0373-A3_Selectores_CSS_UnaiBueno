@@ -5,11 +5,14 @@
     font-weight: 700;
     font-style: normal;
   }
+
+
  
 
 
 /* Regla 2: Margen y relleno del body */
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0 20%;
 }
