@@ -1,0 +1,111 @@
+/* Regla 1: Selector universal */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Regla 2: Margen y relleno del body */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+
+/* Regla 3: Estilo para h1 */
+h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
+
+/* Regla 4: Clase "selector" */
+.selector {
+    color: white;
+}
+
+/* Regla 5: Clase "selectors" */
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Regla 6: ID "universal" */
+#universal {
+    color: white;
+}
+
+/* Regla 7: h2 "selector" y h2 "universal" */
+h2.selector,
+h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+/* Regla 8: span */
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    padding: 0 0.2rem;
+}
+
+/* Regla 9: Enlaces hijos de li */
+li > a {
+    text-decoration: none;
+}
+
+/* Regla 10: Estilo para h3 */
+h3 {
+    background-color: darkcyan;
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+/* Regla 11: Div de #gallery */
+#gallery div {
+    width: 100%;
+}
+
+/* Regla 12: Estilo para img */
+img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
+/* General table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+/* Table Bonus cabezeras */
+thead th {
+    background-color: #ddd;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Table Bonus filas */
+tbody td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Alternando colores de fila*/
+tbody tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+/* Texto en negrita para la primera columna */
+tbody td:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
